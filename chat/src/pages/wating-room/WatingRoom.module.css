@@ -1,0 +1,74 @@
+body {
+  background-color: #FFF8B5;
+}
+
+.head {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFE500;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: auto;
+  padding-left: 5rem;
+}
+
+.create-room-button {
+  background: whitesmoke;
+  border-radius: 20px;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 13px 20px;
+  margin-right: 10px;
+  box-shadow: 0px 0px 4px grey;
+  cursor: pointer;
+}
+
+.table {
+  width: 90%;
+  margin: auto;
+  background-color: white;
+  border-collapse: collapse;
+  margin-top: 3rem;
+  box-shadow: 0px 0px 7px grey;
+  padding: 3rem;
+  border-radius: 20px;
+}
+
+.table thead {
+  font-weight: bold;
+}
+
+.table th {
+  padding: 10px;
+}
+
+.table tbody {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.table th,
+.table td {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.join-room-button {
+  width: 100px;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  box-shadow: 0px 0px 4px grey;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
